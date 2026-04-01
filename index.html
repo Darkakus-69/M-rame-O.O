@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Portal</title>
+
+  <!-- ICONOS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 28px;
+    }
+
+    .menu {
+      margin: 20px;
+    }
+
+    button {
+      padding: 12px 25px;
+      margin: 5px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+    }
+
+    .servicios-btn { background: #22c55e; color: white; }
+    .ocio-btn { background: #3b82f6; color: white; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 25px;
+      border-radius: 18px;
+      text-decoration: none;
+      color: white;
+      transition: 0.25s;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    .card:hover {
+      background: #334155;
+      transform: translateY(-5px);
+    }
+
+    .card i {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .card span {
+      display: block;
+      margin-top: 5px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>🌐 Mi Portal</h1>
+
+<div class="menu">
+  <button class="servicios-btn" onclick="mostrar('servicios')">Servicios</button>
+  <button class="ocio-btn" onclick="mostrar('ocio')">Ocio</button>
+</div>
+
+<!-- SERVICIOS -->
+<div id="servicios" class="grid">
+  <a class="card" href="https://www.bancochile.cl" target="_blank">
+    <i class="fas fa-university"></i>
+    <span>Banco</span>
+  </a>
+
+  <a class="card" href="https://www.servipag.com" target="_blank">
+    <i class="fas fa-file-invoice-dollar"></i>
+    <span>Pagos</span>
+  </a>
+
+  <a class="card" href="https://www.meteochile.gob.cl" target="_blank">
+    <i class="fas fa-cloud-sun"></i>
+    <span>Clima</span>
+  </a>
+</div>
+
+<!-- OCIO -->
+<div id="ocio" class="grid" style="display:none;">
+  <a class="card" href="https://www.youtube.com" target="_blank">
+    <i class="fab fa-youtube"></i>
+    <span>YouTube</span>
+  </a>
+
+  <a class="card" href="https://www.facebook.com" target="_blank">
+    <i class="fab fa-facebook"></i>
+    <span>Facebook</span>
+  </a>
+
+  <a class="card" href="https://www.twitch.tv" target="_blank">
+    <i class="fab fa-twitch"></i>
+    <span>Twitch</span>
+  </a>
+</div>
+
+<script>
+  function mostrar(seccion) {
+    document.getElementById("servicios").style.display = "none";
+    document.getElementById("ocio").style.display = "none";
+    document.getElementById(seccion).style.display = "grid";
+  }
+</script>
+
+</body>
+</html>
