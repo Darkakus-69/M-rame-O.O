@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Charset debe ser lo primero -->
+  <meta charset="UTF-8">
+
+  <!-- Title debe ir temprano para SEO -->
+  <title>Wolf Links - Enlaces de Navegación Chile | Concepción</title>
+
+  <!-- Meta tags esenciales -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a1a1a">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Directorio de enlaces útiles de Chile: bancos, tiendas online, medios de comunicación de Concepción, herramientas web y recursos de programación. Acceso rápido a tus sitios favoritos.">
+  <meta name="keywords"
+    content="links chile, enlaces útiles, bancos chile, tiendas online chile, medios concepción, recursos web, programación, herramientas online">
+  <meta name="author" content="Egon Wolf Miranda">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="language" content="Spanish">
+  <meta name="revisit-after" content="7 days">
+  <meta name="geo.region" content="CL-BI">
+  <meta name="geo.placename" content="Concepción">
+  <meta name="geo.position" content="-36.8201;-73.0444">
+  <meta name="ICBM" content="-36.8201, -73.0444">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.wolf.cl/links/">
+
+  <!-- Open Graph Meta Tags (Facebook, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.wolf.cl/links/">
+  <meta property="og:title" content="Wolf Links - Enlaces de Navegación Chile">
+  <meta property="og:description"
+    content="Directorio de enlaces útiles de Chile: bancos, tiendas online, medios de comunicación de Concepción y recursos web.">
+  <meta property="og:image" content="https://www.wolf.cl/links/fotos/img/foto1.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="es_CL">
+  <meta property="og:site_name" content="Wolf Links">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://www.wolf.cl/links/">
+  <meta name="twitter:title" content="Wolf Links - Enlaces de Navegación Chile">
+  <meta name="twitter:description"
+    content="Directorio de enlaces útiles de Chile: bancos, tiendas online, medios de comunicación de Concepción y recursos web.">
+  <meta name="twitter:image" content="https://www.wolf.cl/links/fotos/img/foto1.jpg">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="favicon.ico">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <script src="./js/exif.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-23ZDVDH6ZE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-23ZDVDH6ZE');
+  </script>
+
+  <section class="contenedor">
+
+    <header class="cabeza">
+      <h1><a href="https://www.wolf.cl/proyectos/">WOLF LINKS</a></h1>
+    </header>
+
+
+    <div class="cfoto1 foto">
+      <a href="https://www.wolf.cl/links/fotos/"><img src="fotos/img/mini_foto1.jpg" alt="foto" id="foto1"></a>
+      <div id="textofoto1"></div>
+    </div>
+
+    <div class="cfoto2 foto">
+      <a href="https://www.wolf.cl/links/fotos/"><img src="fotos/img/mini_foto2.jpg" alt="foto" id="foto2"></a>
+      <div id="textofoto2"></div>
+    </div>
+
+    <div class="cfoto3 foto">
+      <a href="https://www.wolf.cl/links/fotos/"><img src="fotos/img/mini_foto3.jpg" alt="foto" id="foto3"></a>
+      <div id="textofoto3"></div>
+    </div>
+
+    <div class="malla">
+      <div class="item">
+        <a href="https://www.mercadolibre.cl/"><img src="img2/01.jpg" alt="foto" title="mercadolibre"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.bolsadesantiago.com"><img src="img2/02.jpg" alt="foto"
+            title="La bolsa de Santiago.com"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.llacolen.cl/"><img src="img2/03.jpg" alt="foto" title="Llacolen campos deportivos"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.bci.cl/"><img src="img2/04.jpg" alt="foto" title="banco Bci"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.aliexpress.com/"><img src="img2/05.jpg" alt="foto" title="aliexpress"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.youtube.com/"><img src="img2/06.jpg" alt="foto" title="youtube"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.beethovenfm.cl/"><img src="img2/38.jpg" alt="foto" title="radio beethovenfm"></a>
+      </div>
+      <div class="item">
+
+        <a href="https://www.waze.com/"><img src="img2/08.jpg" alt="foto" title="waze"></a>
+      </div>
+      <div class="item">
+        <a href="https://xstation5.xtb.com/?branch=lat#/real/loggedIn"><img src="img2/09.jpg" alt="foto"
+            title="xstation5"></a>
+      </div>
+      <div class="item">
+
+        <a href="https://www.windy.com/"><img src="img2/10.jpg" alt="foto" title="windy"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.blu-ray.com"><img src="img2/34.jpg" alt="foto" title="blu-ray"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.santander.cl/"><img src="img2/12.jpg" alt="foto" title="banco santander santiago"></a>
+      </div>
+      <div class="item">
+        <a href="https://mail.google.com/mail/"><img src="img2/13.jpg" alt="foto" title="google mail"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.ventusky.com/"><img src="img2/14.jpg" alt="foto" title="ventusky"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.servipag.com/"><img src="img2/15.jpg" alt="foto" title="servipag"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.bancochile.cl/"><img src="img2/16.jpg" alt="foto" title="banco chile"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.google.cl/"><img src="img2/17.jpg" alt="foto" title="google"></a>
+      </div>
+      <div class="item">
+
+        <a href="https://copilot.microsoft.com"><img src="img2/18.jpg" alt="foto" title="copilot"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.amazon.com/"><img src="img2/19.jpg" alt="foto" title="amazon"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.bancoestado.cl/"><img src="img2/20.jpg" alt="foto" title="bancoestado"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.facebook.com/"><img src="img2/21.jpg" alt="foto" title="facebook"></a>
+      </div>
+      <div class="item">
+        <a href="https://bard.google.com"><img src="img2/22.jpg" alt="foto" title="Ie Bard Google"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.biobiochile.cl/"><img src="img2/23.jpg" alt="foto" title="Radio Biobio"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.google.es/language_tools?hl=es"><img src="img2/24.jpg" alt="foto"
+            title="traductor google"></a>
+      </div>
+      <div class="item">
+        <a href="https://twitter.com/"><img src="img2/25.jpg" alt="foto" title="twitter"></a>
+      </div>
+      <div class="item">
+
+        <a href="https://chatgpt.com"><img src="img2/26.jpg" alt="foto" title="openaichat"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.cooperativa.cl/"><img src="img2/27.jpg" alt="foto" title="radio cooperativa"></a>
+      </div>
+      <div class="item">
+        <a href="https://online2pdf.com/"><img src="img2/28.jpg" alt="foto" title="edición de pdf"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.tiktok.com/"><img src="img2/29.jpg" alt="foto" title="tik tok"></a>
+      </div>
+      <div class="item">
+        <a href="https://grok.com"><img src="img2/30.jpg" alt="foto" title=" IA Grok"></a>
+      </div>
+      <div class="item">
+        <a href="https://uchile.cl/UchileTV/"><img src="img2/31.jpg" alt="foto" title="UchileTV"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.verifyemailaddress.org/"><img src="img2/32.jpg" alt="foto"
+            title="verificacion de emails"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.bbc.com/mundo/"><img src="img2/33.jpg" alt="foto" title="bbc"></a>
+      </div>
+      <div class="item">
+        <a href="https://claude.ai/"><img src="img2/11.jpg" alt="foto" title="cloude"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.ebay.com/"><img src="img2/35.jpg" alt="foto" title="ebay"></a>
+      </div>
+      <div class="item">
+        <a href="https://lamanzanamordida.net"><img src="img2/36.jpg" alt="foto" title="la manzana mordida"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.dw.com/es"><img src="img2/37.jpg" alt="foto" title="dw"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.perplexity.ai/"><img src="img2/07.jpg" alt="foto" title="perplexity"></a>
+      </div>
+      <div class="item">
+        <a href="https://famelack.com"><img src="img2/39.jpg" alt="foto" title="famelack"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.wetransfer.com/"><img src="img2/40.jpg" alt="foto" title="wetransfer"></a>
+      </div>
+      <div class="item">
+        <a href="https://lenguajehtml.com/"><img src="img2/41.jpg" alt="foto" title="lenguaje html"></a>
+      </div>
+      <div class="item">
+        <a href="https://htmlcheatsheet.com"><img src="img2/42.jpg" alt="foto" title="html cheatsheet css y Js"></a>
+      </div>
+      <div class="item">
+        <a href="https://enjoycss.com/"><img src="img2/43.jpg" alt="foto" title="enjoy css"></a>
+      </div>
+      <div class="item">
+        <a href="https://developer.mozilla.org/"><img src="img2/44.jpg" alt="foto" title="Mdn"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.python.org/"><img src="img2/45.jpg" alt="foto" title="python"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.qrcode.es/es/generador-qr-code/"><img src="img2/46.jpg" alt="foto"
+            title="generador-qr-code"></a>
+      </div>
+      <div class="item">
+        <a href="https://earthquake.usgs.gov/earthquakes/map/"><img src="img2/47.jpg" alt="foto" title="earthquake"></a>
+      </div>
+      <div class="item">
+        <a href="https://es.stackoverflow.com/"><img src="img2/48.jpg" alt="foto" title="stackoverflow"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.emol.com/"><img src="img2/49.jpg" alt="foto" title="emol"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.elsur.cl/"><img src="img2/50.jpg" alt="foto" title="diario elsur"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.w3schools.com"><img src="img2/51.jpg" alt="foto" title="www.w3schools"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.prensaescrita.com/"><img src="img2/52.jpg" alt="foto" title="prensaescrita"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.lun.com/"><img src="img2/53.jpg" alt="foto" title="Las ultimas noticias"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.diarioconcepcion.cl/"><img src="img2/54.jpg" alt="foto"
+            title="El diario de concepci√≥n"></a>
+      </div>
+      <div class="item">
+        <a href="https://speed.cloudflare.com/"><img src="img2/55.jpg" alt="foto" title="speedtest"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.mediosregionales.cl/"><img src="img2/56.jpg" alt="foto" title="Medios regionales"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.latercera.com/"><img src="img2/57.jpg" alt="foto" title="La Tercera"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.solotodo.cl"><img src="img2/58.jpg" alt="foto" title="Solo todo"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.lanacion.cl/"><img src="img2/59.jpg" alt="foto" title="La nacion"></a>
+      </div>
+      <div class="item">
+
+        <a href="https://www.justwatch.com/cl"><img src="img2/60.jpg" alt="foto" title="justwatchcl"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.ciperchile.cl"><img src="img2/61.jpg" alt="foto" title="cipper"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.elmostrador.cl/"><img src="img2/62.jpg" alt="foto" title="El Mostrador"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.flickr.com/photos/ewm/sets/"><img src="img2/63.jpg" alt="foto"
+            title="flickrphotos ewm sets"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.theclinic.cl/"><img src="img2/64.jpg" alt="foto" title="The Clinic"></a>
+      </div>
+      <div class="item">
+
+        <a href="https://www.temu.com"><img src="img2/65.jpg" alt="foto" title="Temu"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.subdivx.com/"><img src="img2/66.jpg" alt="foto" title="subdivx Subtitulos"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.dropbox.com/"><img src="img2/67.jpg" alt="foto" title="dropbox"></a>
+      </div>
+      <div class="item">
+        <a href="https://rb.gy/z0818"><img src="img2/68.jpg" alt="foto" title="flightaware resources airport"></a>
+      </div>
+      <div class="item">
+        <a href="https://cl.shein.com/"><img src="img2/69.jpg" alt="foto" title="Shein"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.pcfactory.cl/"><img src="img2/70.jpg" alt="foto" title="pcfactory"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.chilebosque.cl/"><img src="img2/71.jpg" alt="foto" title="chile bosque"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.flightradar24.com/"><img src="img2/72.jpg" alt="foto" title="flightradar24"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.falabella.cl/"><img src="img2/73.jpg" alt="foto" title="falabella"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.wei.cl/"><img src="img2/74.jpg" alt="foto" title="wei"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.reddit.com/"><img src="img2/75.jpg" alt="foto" title="Reddit Foros"></a>
+      </div>
+      <div class="item">
+        <a href="https://x-planetools.com/"><img src="img2/76.jpg" alt="foto" title="x-planetools"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.ripley.cl/"><img src="img2/77.jpg" alt="foto" title="ripley"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.bip.cl/"><img src="img2/78.jpg" alt="foto" title="bip"></a>
+      </div>
+      <div class="item">
+        <a href="https://ebird.org/region/CL"><img src="img2/79.jpg" alt="foto" title="ebird chile"></a>
+      </div>
+      <div class="item">
+        <a href="https://rb.gy/yof9r"><img src="img2/80.jpg" alt="foto" title="IFIS El Tepual"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.paris.cl/"><img src="img2/81.jpg" alt="foto" title="paris"></a>
+      </div>
+      <div class="item">
+        <a href="http://www.wolf.cl/scac"><img src="img2/82.jpg" alt="foto" title="SCAC"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.fotonaturaleza.cl/"><img src="img2/83.jpg" alt="foto" title="fotonaturaleza"></a>
+      </div>
+      <div class="item">
+        <a href="https://rb.gy/337gq"><img src="img2/84.jpg" alt="foto" title="IFIS Mocopulli"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.sodimac.cl/"><img src="img2/85.jpg" alt="foto" title="sodimac"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.maconline.com/"><img src="img2/86.jpg" alt="foto" title="maconline"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.avesdechile.cl/"><img src="img2/87.jpg" alt="foto" title="avesdechile"></a>
+      </div>
+      <div class="item">
+        <a href="https://gateway.x-plane.com/"><img src="img2/88.jpg" alt="foto" title="gateway x-plane"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.easy.cl/"><img src="img2/89.jpg" alt="foto" title="easy"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.reifstore.cl/"><img src="img2/90.jpg" alt="foto" title="reifstore"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.xeno-canto.org/"><img src="img2/91.jpg" alt="foto" title="xeno-canto"></a>
+      </div>
+      <div class="item">
+        <a href="https://skyvector.com/"><img src="img2/92.jpg" alt="foto" title="skyvector"></a>
+      </div>
+      <div class="item">
+
+        <a href="https://www.rtings.com/"><img src="img2/93.jpg" alt="foto" title="rtings"></a>
+      </div>
+      <div class="item">
+        <a href="https://www.ebest.cl/"><img src="img2/94.jpg" alt="foto" title="ebest"></a>
+      </div>
+      <div class="item">
+        <a href="https://skyandtelescope.com/"><img src="img2/95.jpg" alt="foto" title="skyandtelescope"></a>
+      </div>
+      <div class="item">
+        <a href="https://flightplandatabase.com/planner#decoder"><img src="img2/96.jpg" alt="foto"
+            title="Planes de vuelo"></a>
+      </div>
+    </div>
+
+    <div class="cfoto4 foto">
+      <a href="https://www.wolf.cl/links/fotos/"><img src="fotos/img/mini_foto4.jpg" alt="foto" id="foto4"></a>
+      <div id="textofoto4"></div>
+    </div>
+
+    <div class="cfoto5 foto">
+      <a href="https://www.wolf.cl/links/fotos/"><img src="fotos/img/mini_foto5.jpg" alt="foto" id="foto5"></a>
+      <div id="textofoto5"></div>
+    </div>
+
+    <div class="cfoto6 foto">
+      <a href="https://www.wolf.cl/links/fotos/"><img src="fotos/img/mini_foto6.jpg" alt="foto" id="foto6"></a>
+      <div id="textofoto6"></div>
+    </div>
+
+    <footer class="pie">
+      <h2>Concepción Chile</h2>
+    </footer>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Darkaku WEB Service",
+      "url": "https://darkakus-69.github.io/M-rame-O.O/",
+      "description": "Directorio de enlaces útiles de Chile: bancos, tiendas online, medios de comunicación de Concepción y recursos web",
+      "author": {
+        "@type": "Person",
+        "name": "Egon Wolf Miranda"
+      },
+      "inLanguage": "es-CL",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Wolf Links",
+        "url": "https://www.wolf.cl/"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.wolf.cl/links/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+  </section>
+
+  <script src="./js/calculos.js"></script>
+
+</body>
+
+</html>
