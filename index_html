@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Darkaku WEB Service</title>
+
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:#070b10;
+      color:white;
+    }
+
+    header{
+      text-align:center;
+      padding:20px;
+      background:#0b2a1f;
+      border-bottom:2px solid #22c55e;
+    }
+
+    header h1{
+      margin:0;
+      color:#22c55e;
+      font-size:28px;
+    }
+
+    nav{
+      display:flex;
+      justify-content:center;
+      gap:10px;
+      padding:15px;
+    }
+
+    button{
+      padding:10px 15px;
+      border:none;
+      border-radius:10px;
+      cursor:pointer;
+      font-weight:bold;
+    }
+
+    #servBtn{background:#22c55e;color:black;}
+    #ocioBtn{background:#3b82f6;color:white;}
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+      gap:10px;
+      padding:15px;
+    }
+
+    .card{
+      background:#111827;
+      border-radius:12px;
+      overflow:hidden;
+      text-decoration:none;
+      color:white;
+      transition:0.2s;
+      border:1px solid #1f2937;
+    }
+
+    .card:hover{
+      transform:scale(1.05);
+      border-color:#22c55e;
+    }
+
+    .card img{
+      width:100%;
+      height:90px;
+      object-fit:cover;
+      display:block;
+    }
+
+    .card div{
+      padding:8px;
+      text-align:center;
+      font-size:13px;
+    }
+
+    .hidden{
+      display:none;
+    }
+
+    footer{
+      text-align:center;
+      padding:20px;
+      color:#6b7280;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>🐞 DARKAKU WEB SERVICE</h1>
+</header>
+
+<nav>
+  <button id="servBtn" onclick="show('serv')">Servicios</button>
+  <button id="ocioBtn" onclick="show('ocio')">Ocio</button>
+</nav>
+
+<!-- SERVICIOS -->
+<div id="serv" class="grid">
+
+  <a class="card" href="https://www.bancochile.cl" target="_blank">
+    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d">
+    <div>Banco Chile</div>
+  </a>
+
+  <a class="card" href="https://www.servipag.com" target="_blank">
+    <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5">
+    <div>Pagos</div>
+  </a>
+
+  <a class="card" href="https://www.meteochile.gob.cl" target="_blank">
+    <img src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b">
+    <div>Clima</div>
+  </a>
+
+</div>
+
+<!-- OCIO -->
+<div id="ocio" class="grid hidden">
+
+  <a class="card" href="https://www.youtube.com" target="_blank">
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475">
+    <div>YouTube</div>
+  </a>
+
+  <a class="card" href="https://www.tiktok.com" target="_blank">
+    <img src="https://images.unsplash.com/photo-1508780709619-79562169bc64">
+    <div>TikTok</div>
+  </a>
+
+  <a class="card" href="https://chatgpt.com" target="_blank">
+    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995">
+    <div>ChatGPT</div>
+  </a>
+
+</div>
+
+<footer>
+  Darkaku WEB Service - GitHub Ready ✔
+</footer>
+
+<script>
+function show(type){
+  document.getElementById("serv").classList.add("hidden");
+  document.getElementById("ocio").classList.add("hidden");
+
+  document.getElementById(type).classList.remove("hidden");
+}
+</script>
+
+</body>
+</html>
