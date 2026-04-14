@@ -1,134 +1,156 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Mi Portal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Darkaku WEB Service</title>
 
-  <!-- ICONOS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#0b1220;
+  color:white;
+}
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #0f172a;
-      color: white;
-      text-align: center;
-    }
+header{
+  text-align:center;
+  padding:20px;
+  background:#020617;
+  border-bottom:2px solid #38bdf8;
+}
 
-    h1 {
-      margin-top: 20px;
-      font-size: 28px;
-    }
+header h1{
+  margin:0;
+  font-size:28px;
+}
 
-    .menu {
-      margin: 20px;
-    }
+header p{
+  margin:5px 0 0;
+  color:#94a3b8;
+}
 
-    button {
-      padding: 12px 25px;
-      margin: 5px;
-      border: none;
-      border-radius: 12px;
-      cursor: pointer;
-      font-size: 16px;
-      font-weight: bold;
-      transition: 0.2s;
-    }
+nav{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  margin:20px;
+}
 
-    button:hover {
-      transform: scale(1.05);
-    }
+button{
+  padding:10px 18px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:bold;
+}
 
-    .servicios-btn { background: #22c55e; color: white; }
-    .ocio-btn { background: #3b82f6; color: white; }
+#btnServ{background:#22c55e;color:white;}
+#btnOcio{background:#3b82f6;color:white;}
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-      gap: 20px;
-      padding: 20px;
-    }
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+  gap:15px;
+  padding:20px;
+}
 
-    .card {
-      background: #1e293b;
-      padding: 25px;
-      border-radius: 18px;
-      text-decoration: none;
-      color: white;
-      transition: 0.25s;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    }
+.card{
+  background:#1e293b;
+  border-radius:15px;
+  text-decoration:none;
+  color:white;
+  overflow:hidden;
+  transition:0.2s;
+}
 
-    .card:hover {
-      background: #334155;
-      transform: translateY(-5px);
-    }
+.card:hover{
+  transform:scale(1.05);
+  background:#334155;
+}
 
-    .card i {
-      font-size: 32px;
-      margin-bottom: 10px;
-    }
+.card img{
+  width:100%;
+  height:110px;
+  object-fit:cover;
+}
 
-    .card span {
-      display: block;
-      margin-top: 5px;
-      font-size: 14px;
-    }
-  </style>
+.card div{
+  text-align:center;
+  padding:8px;
+  font-size:14px;
+}
+</style>
 </head>
 
 <body>
 
-<h1>🌐 Mi Portal</h1>
+<header>
+  <h1>🐞 Darkaku WEB Service</h1>
+  <p>Tu portal personal de servicios y ocio</p>
+</header>
 
-<div class="menu">
-  <button class="servicios-btn" onclick="mostrar('servicios')">Servicios</button>
-  <button class="ocio-btn" onclick="mostrar('ocio')">Ocio</button>
-</div>
+<nav>
+  <button id="btnServ" onclick="show('servicios')">Servicios</button>
+  <button id="btnOcio" onclick="show('ocio')">Ocio</button>
+</nav>
 
 <!-- SERVICIOS -->
 <div id="servicios" class="grid">
+
   <a class="card" href="https://www.bancochile.cl" target="_blank">
-    <i class="fas fa-university"></i>
-    <span>Banco</span>
+    <img src="https://source.unsplash.com/300x200/?ant">
+    <div>Banco Chile</div>
   </a>
 
   <a class="card" href="https://www.servipag.com" target="_blank">
-    <i class="fas fa-file-invoice-dollar"></i>
-    <span>Pagos</span>
+    <img src="https://source.unsplash.com/300x200/?beetle">
+    <div>Pagos</div>
+  </a>
+
+  <a class="card" href="https://www.google.cl" target="_blank">
+    <img src="https://source.unsplash.com/300x200/?insect">
+    <div>Google</div>
   </a>
 
   <a class="card" href="https://www.meteochile.gob.cl" target="_blank">
-    <i class="fas fa-cloud-sun"></i>
-    <span>Clima</span>
+    <img src="https://source.unsplash.com/300x200/?weather,insect">
+    <div>Clima</div>
   </a>
+
 </div>
 
 <!-- OCIO -->
 <div id="ocio" class="grid" style="display:none;">
+
   <a class="card" href="https://www.youtube.com" target="_blank">
-    <i class="fab fa-youtube"></i>
-    <span>YouTube</span>
+    <img src="https://source.unsplash.com/300x200/?butterfly">
+    <div>YouTube</div>
   </a>
 
-  <a class="card" href="https://www.facebook.com" target="_blank">
-    <i class="fab fa-facebook"></i>
-    <span>Facebook</span>
+  <a class="card" href="https://www.tiktok.com" target="_blank">
+    <img src="https://source.unsplash.com/300x200/?dragonfly">
+    <div>TikTok</div>
   </a>
 
-  <a class="card" href="https://www.twitch.tv" target="_blank">
-    <i class="fab fa-twitch"></i>
-    <span>Twitch</span>
+  <a class="card" href="https://www.reddit.com" target="_blank">
+    <img src="https://source.unsplash.com/300x200/?bug,macro">
+    <div>Reddit</div>
   </a>
+
+  <a class="card" href="https://chatgpt.com" target="_blank">
+    <img src="https://source.unsplash.com/300x200/?mantis">
+    <div>ChatGPT</div>
+  </a>
+
 </div>
 
 <script>
-  function mostrar(seccion) {
-    document.getElementById("servicios").style.display = "none";
-    document.getElementById("ocio").style.display = "none";
-    document.getElementById(seccion).style.display = "grid";
-  }
+function show(seccion){
+  document.getElementById("servicios").style.display="none";
+  document.getElementById("ocio").style.display="none";
+  document.getElementById(seccion).style.display="grid";
+}
 </script>
 
 </body>
